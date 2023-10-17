@@ -30,8 +30,15 @@ header > .interface{
 }
 
 header a{
-    color: #e90404;
+    color: #ffffff67;
     text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #ffffff;
+    transform: scale(1.05);
 }
 
 header nav ul{
@@ -51,4 +58,8 @@ header .Loh-contato button{
     border: 0;
     border-radius: 30px;
     cursor: pointer;
+}
+
+header .Loh-contato button:hover{
+    box-shadow: 0px 0px 8px #e90404;
 }
