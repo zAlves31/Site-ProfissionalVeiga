@@ -37,6 +37,15 @@ body{
     transform: scale(1.05);
 }
 
+h2.titulo{
+    color: #ffffff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #e90404;
+}
 
 /*Estilo do Cabeçalho*/
 
@@ -71,7 +80,7 @@ header nav ul li{
     padding: 0 40px;
 }
 
-/* ESTILO DO TOPO DO SITE */
+/* Estilo topo do site */
 section.topo-do-site{
     padding: 40px 4%;
 }
@@ -123,4 +132,9 @@ section.topo-do-site.flex{
    100%{
     top: 30px;
    }
+}
+
+/* Estilo das especialidades */
+sec.especialidades{
+    padding: 40px 4%;
 }
