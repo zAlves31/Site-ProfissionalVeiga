@@ -207,3 +207,13 @@ section.sobre .flex{
     margin: 0 8px;
     transition: .2s;
 }
+
+.sobre .txt.img img{
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+}
+
+.txt-img img {
+    border-radius: 30px;
+}
