@@ -279,7 +279,7 @@ section.cursos .flex{
 /* Estilo do Rodapé */
 footer{
     width: 100%;
-    height: 300px;
+    height: 330px;
     padding: 4%;
     box-shadow: 0 0 10px 5px #ffffff1d;
 }
@@ -304,4 +304,16 @@ footer .linha-footer p i{
 footer .linha-footer p a{
     color: #ffffff;
     
+}
+
+footer .img-logojoao img{
+    width: 250px;
+    border-radius: 20px;
+}
+
+footer .Copyright{
+    color: #ffffff;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
 }
