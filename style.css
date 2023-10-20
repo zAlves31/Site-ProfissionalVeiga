@@ -96,7 +96,7 @@ header nav ul li{
 section.topo-do-site{
     width: 100%;
     height: 540px;
-
+    padding: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -316,4 +316,93 @@ footer .Copyright{
     font-size: 10px;
     display: flex;
     justify-content: center;
+}
+
+/* Estilo responsivo */
+@media screen and (max-width: 1020px) {
+    /*Estilo Geral do Site*/
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    .sobre .flex{
+        flex-direction: column-reverse;
+    }
+    
+
+    /* Cabeçalho */
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+
+    /* Topo do site */
+    section.topo-do-site{
+        width: 100%;
+        height: 820px;
+        padding: 4%;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .topo-do-site h1{
+    color: #ffffff;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+    .topo-do-site .txt-topo-do-site h1 span{
+        color: #e90404;
+    }
+    
+    .topo-do-site .txt-topo-do-site p{
+        color: #ffffff;
+        margin: 20px 0;
+        text-align: justify;
+    }
+
+    /* Especialidades */
+    section.especialidades{
+        width: 100%;
+        height: 1500px;
+        padding: 4%;
+    }
+
+    /* Sobre */
+    section.sobre{
+        width: 100%;
+        height: 1050px;
+        padding: 4%;
+    }
+
+    /* Cursos */
+    section.cursos{
+        width: 100%;
+        height: 1250px;
+        padding: 4%;
+    }
+
+    /* Footer */
+    footer{
+        width: 100%;
+        height: 450px;
+        padding: 4%;
+        box-shadow: 0 0 10px 5px #ffffff1d;
+    }
+    
+
+     /* RODAPÉ */
+     footer .flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .linha-footer {
+        text-align: center;
+    }
+
 }
