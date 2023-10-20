@@ -147,7 +147,7 @@ section.topo-do-site.flex{
 }
 
 /* Estilo das especialidades */
-sec.especialidades{
+section.especialidades{
     padding: 40px 4%;
 }
 
@@ -228,4 +228,44 @@ section.sobre .flex{
 
 .txt-img img {
     border-radius: 30px;
+}
+
+/* Estilo Cursos */
+
+section.cursos{
+    padding: 40px 4%;
+}
+
+section.cursos .flex{
+    gap: 60px;
+}
+
+.cursos .cursos-box{
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.cursos .cursos-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff;
+}
+
+.cursos .cursos-box .microcamp{
+    width: 105px;
+}
+.cursos .cursos-box .saliens{
+    width: 140px;
+}
+
+.cursos .cursos-box h2{
+    font-size: 26px;
+    margin: 15px 0;
+}
+
+.cursos .cursos-box p{
+    margin: 20px 0;
+    text-align: justify;
 }
