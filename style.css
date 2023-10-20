@@ -47,6 +47,18 @@ button:hover{
     transform: scale(1.05);
 }
 
+.btn-social button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #e90404;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 8px;
+    transition: .2s;
+}
+
 /*Estilo do Cabeçalho*/
 
 header{
@@ -148,7 +160,9 @@ section.topo-do-site.flex{
 
 /* Estilo das especialidades */
 section.especialidades{
-    padding: 40px 4%;
+    width: 100%;
+    height: 575px;
+    padding: 4%;
 }
 
 section.especialidades .flex{
@@ -180,7 +194,9 @@ section.especialidades .flex{
 
 /* Estilo Sobre */
 section.sobre{
-    padding: 120px 4%;
+    width: 100%;
+    height: 500px;
+    padding: 4%;
 }
 
 section.sobre .flex{
@@ -208,18 +224,6 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    background-color: #e90404;
-    font-size: 22px;
-    cursor: pointer;
-    margin: 0 8px;
-    transition: .2s;
-}
-
 .sobre .txt.img img{
     padding: 40px;
     border-radius: 20px;
@@ -233,7 +237,9 @@ section.sobre .flex{
 /* Estilo Cursos */
 
 section.cursos{
-    padding: 40px 4%;
+    width: 100%;
+    height: 648px;
+    padding: 4%;
 }
 
 section.cursos .flex{
@@ -268,4 +274,34 @@ section.cursos .flex{
 .cursos .cursos-box p{
     margin: 20px 0;
     text-align: justify;
+}
+
+/* Estilo do Rodapé */
+footer{
+    width: 100%;
+    height: 300px;
+    padding: 4%;
+    box-shadow: 0 0 10px 5px #ffffff1d;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .linha-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #e90404;
+}
+
+footer .linha-footer p i{
+    color: #e90404;
+    font-size: 22px;
+}
+
+footer .linha-footer p a{
+    color: #ffffff;
+    
 }
