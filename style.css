@@ -444,6 +444,11 @@ footer .Copyright{
 }
 @media screen and (max-width: 480px){
         /*Estilo Geral do Site*/
+        .interface{
+            max-width: 480px;
+            margin: 0 auto;
+        }
+
         .flex{
             flex-direction: column;
         }
