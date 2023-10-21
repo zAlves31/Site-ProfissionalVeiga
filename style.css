@@ -320,6 +320,7 @@ footer .Copyright{
 
 /* Estilo responsivo */
 @media screen and (max-width: 1020px) {
+    
     /*Estilo Geral do Site*/
     .flex{
         flex-direction: column;
@@ -351,15 +352,24 @@ footer .Copyright{
         padding: 4%;
 
     }
-          
+
+    .topo-do-site .foto-Loh {
+        width: 800px; /* Largura da imagem hexagonal */
+        height: 440px; /* Altura da imagem hexagonal */
+        display: flex;
+        justify-content: center;
+      }
+        
+      
       .topo-do-site .foto-Loh img {
         width: 280px;
         height: 400px;
-        object-fit: cover; /* Redimensiona a imagem para preencher o hexágono */
+        object-fit: cover;
         animation: flutuar 2s ease-in-out infinite alternate;
         clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         position: relative;
-        margin-right: 58%;
+        margin-right: auto; /* Remova a margem direita */
+        margin-left: 40px; /* Adicione margem esquerda automática */
       }
     
 
@@ -429,4 +439,126 @@ footer .Copyright{
         border-radius: 20px;
     }
 
+    
+
+}
+@media screen and (max-width: 480px){
+        /*Estilo Geral do Site*/
+        .flex{
+            flex-direction: column;
+        }
+    
+        .topo-do-site .flex{
+            flex-direction: column-reverse;
+        }
+    
+        .sobre .flex{
+            flex-direction: column-reverse;
+        }
+        
+         h2.titulo {
+            font-size: 34px;
+            line-height: 30px;
+        }
+    
+    
+        /* Cabeçalho */
+        .menu-desktop, .btn-contato{
+            display: none;
+        }
+    
+        /* Topo do site */
+        section.topo-do-site{
+            width: 100%;
+            height: 920px;
+            padding: 4%;
+    
+        }
+    
+        .topo-do-site .foto-Loh {
+            width: 800px; /* Largura da imagem hexagonal */
+            height: 440px; /* Altura da imagem hexagonal */
+            display: flex;
+            justify-content: center;
+          }
+            
+          
+          .topo-do-site .foto-Loh img {
+            width: 280px;
+            height: 400px;
+            object-fit: cover;
+            animation: flutuar 2s ease-in-out infinite alternate;
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            position: relative;
+            margin-right: auto; /* Remova a margem direita */
+            margin-left: 40px; /* Adicione margem esquerda automática */
+          }
+        
+    
+        .topo-do-site h1{
+            color: #ffffff;
+            font-size: 42px;
+            line-height: 50px;
+        }
+    
+        .topo-do-site .txt-topo-do-site h1 span{
+            color: #e90404;
+        }
+        
+        .topo-do-site .txt-topo-do-site p{
+            color: #ffffff;
+            margin: 20px 0;
+            text-align: justify;
+        }
+    
+        /* Especialidades */
+        section.especialidades{
+            width: 100%;
+            height: 1500px;
+            padding: 4%;
+        }
+    
+        /* Sobre */
+        section.sobre{
+            width: 100%;
+            height: 1050px;
+            padding: 4%;
+        }
+    
+        /* Cursos */
+        section.cursos{
+            width: 100%;
+            height: 1250px;
+            padding: 4%;
+        }
+    
+        /* Footer */
+        footer{
+            width: 100%;
+            height: 450px;
+            padding: 4%;
+            box-shadow: 0 0 10px 5px #ffffff1d;
+        }
+        
+    
+         footer .flex {
+            flex-direction: column;
+            gap: 30px;
+        }
+    
+        footer .linha-footer {
+            text-align: center;
+        }
+    
+    
+        footer .img-logojoao img{
+            width: 200px;
+            border-radius: 20px;
+        }
+    
+        footer .logo-footer img{
+            width: 170px;
+            border-radius: 20px;
+        }
+    
 }
