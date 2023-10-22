@@ -93,6 +93,11 @@ header nav.menu-desktop ul li{
 }
 
 /* Estilo Menu-Mobile */
+
+.btn-abrir-menu{
+    display: none;
+}
+
 .btn-abrir-menu i{
     color:#e90404;
     font-size: 40px;
@@ -104,9 +109,18 @@ header nav.menu-desktop ul li{
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 9999;
+    z-index: 99999;
     width: 0%;
     overflow: hidden;
+    transition: .6s;
+}
+
+.menu-mobile.abri-menu{
+    width: 70%;
+}
+
+.menu-mobile.abri-menu ~.overlay-menu{
+    display: block;
 }
 
 .menu-mobile .btn-fechar{
@@ -377,6 +391,9 @@ footer .Copyright{
     
     /*Estilo Geral do Site*/
 
+    .btn-abrir-menu{
+        display: block;
+    }
     
     .flex{
         flex-direction: column;
