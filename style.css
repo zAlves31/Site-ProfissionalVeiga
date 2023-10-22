@@ -428,9 +428,11 @@ footer .Copyright{
     }
 
     .topo-do-site .foto-Loh {
+        width: 350px; /* Largura da imagem hexagonal */
+        height: 400px; /* Altura da imagem hexagonal */
         display: grid;
         place-items: center;
-      }
+    }
     
 
     .topo-do-site h1{
