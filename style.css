@@ -263,7 +263,7 @@ section.especialidades .flex{
 /* Estilo Sobre */
 section.sobre{
     width: 100%;
-    height: 570px;
+    height: 600px;
     padding: 4%;
 }
 
@@ -540,7 +540,7 @@ footer .Copyright{
     }
     
     .menu-mobile nav ul{
-        text-align: right;
+        text-align: center;
     }
     
     .menu-mobile nav ul li a{
@@ -568,6 +568,3 @@ footer .Copyright{
     }
 
 }
-
-
-
